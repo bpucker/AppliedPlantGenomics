@@ -47,7 +47,7 @@ ASSEMBLY \
 > annotation.gff
 
 ## Extract Peptide and Coding Sequences ##
-There is an AUGUSTUS-associated perl script for the extraction of peptide and coding sequences called getAnnoFasta.pl. This script requires the genome sequence assembly file (FASTA) and the annotation file (GFF) as input.
+There is an [AUGUSTUS-associated perl script](https://bioinf.uni-greifswald.de/augustus/binaries/scripts/) for the extraction of peptide and coding sequences called getAnnoFasta.pl. This script requires the genome sequence assembly file (FASTA) and the annotation file (GFF) as input.
 
 getAnnoFasta.pl \
 --seqfile=ASSEMBLY_FILE \
