@@ -1,4 +1,4 @@
-# AppliedPlantGenomics (GE31/MM12)
+# Applied Plant Genomics (GE31/MM12)
 This repository contains materials and scripts used for Applied Plant Genomics.
 
 ## Calculate Sequence Read Stats ##
