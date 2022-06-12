@@ -41,7 +41,7 @@ Usage:
   python3 contig_stats3.py
  
 Mandatory:
-  --innput           STR    Assemblyfile
+  --input           STR    Assemblyfile
  		
 Optional:
   --out              STR    Output folder
@@ -67,10 +67,11 @@ ASSEMBLY \
 ## Extract Peptide and Coding Sequences ##
 There is an [AUGUSTUS-associated perl script](https://bioinf.uni-greifswald.de/augustus/binaries/scripts/) for the extraction of peptide and coding sequences called getAnnoFasta.pl. This script requires the genome sequence assembly file (FASTA) and the annotation file (GFF) as input.
 
+```
 getAnnoFasta.pl \
 --seqfile=ASSEMBLY_FILE \
 ANNOTATION_GFF_FILE
-
+```
 
 ## Add Functional Annotations to Predicted Genes ##
 This script allows to assign functional annotation terms to predicted genes based on sequence similarity to previously characterized sequences.
@@ -85,26 +86,29 @@ python3 construct_anno3.py \
 ## Long Read Mapping ##
 [minimap2]() can be used to align long reads to a genome sequence.
 
-
+```
 /vol/data/tools/minimap2-2.24_x64-linux/minimap2 \
 -ax map-ont --secondary=no -t 10 \
 GENOMSE_ASSEMBLY_FASTA \
 FASTQ_FILE \
 > MAPPING_FILE
+```
 
-
+```
 samtools view -Sb \
 SAM_FILE \
 > BAM_FILE
+```
 
-
+```
 samtools sort -@ 10 \
 -o OUTPUT_BAM_FILE \
 INPUT_BAM_FILE
+```
 
-
+```
 samtools index <BAM_FILE>
-
+```
 
 
 ## References ##
