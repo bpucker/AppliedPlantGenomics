@@ -76,11 +76,16 @@ ANNOTATION_GFF_FILE
 ## Add Functional Annotations to Predicted Genes ##
 This script allows to assign functional annotation terms to predicted genes based on sequence similarity to previously characterized sequences.
 
-python3 construct_anno3.py \
---out OUTPUT_FOLDER \
---in PREDICTED_PEPTIDE_FILE \
---ref ath.pep.fasta \
---anno ath.anno.txt
+```
+Usage:
+  python3 construct_anno3.py
+ 
+Mandatory:
+  --out OUTPUT_FOLDER \
+  --in PREDICTED_PEPTIDE_FILE \
+  --ref ath.pep.fasta \
+  --anno ath.anno.txt
+```
 
 
 ## Long Read Mapping ##
@@ -113,5 +118,9 @@ samtools index <BAM_FILE>
 
 ## References ##
 
+Pucker B, Holtgräwe D, Rosleff Sörensen T, Stracke R, Viehöver P, Weisshaar B (2016) A De Novo Genome Sequence Assembly of the Arabidopsis thaliana Accession Niederzenz-1 Displays Presence/Absence Variation and Strong Synteny. PLoS ONE 11(10): e0164321. doi:[10.1371/journal.pone.0164321](https://doi.org/10.1371/journal.pone.0164321).
 
+Pucker B, Holtgräwe D, Stadermann KB, Frey K, Huettel B, Reinhardt R, et al. (2019) A chromosome-level sequence assembly reveals the structure of the Arabidopsis thaliana Nd-1 genome and its gene set. PLoS ONE 14(5): e0216233. doi:[10.1371/journal.pone.0216233](https://doi.org/10.1371/journal.pone.0216233).
+
+Pucker, B., Kleinbölting, N. & Weisshaar, B. Large scale genomic rearrangements in selected Arabidopsis thaliana T-DNA lines are caused by T-DNA insertion mutagenesis. BMC Genomics 22, 599 (2021). doi:[10.1186/s12864-021-07877-8](https://doi.org/10.1186/s12864-021-07877-8).
 
