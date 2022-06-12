@@ -11,7 +11,7 @@ Usage:
   python3 FASTQ_stats3.py
  
 Mandatory:
-  --in          STR    FASTQ file
+  --in   STR   FASTQ file
 ```
 
 
@@ -52,7 +52,7 @@ Optional:
 ## Run AUGUSTUS for Gene Prediction ###
 [AUGUSTUS]() is one of the standard tools for the generation of _ab initio_ gene predictions. 
 
-
+```
 augustus \
 --gff3=on  \
 --UTR=on \
@@ -61,6 +61,8 @@ augustus \
 --species=arabidopsis \
 ASSEMBLY \
 > annotation.gff
+```
+
 
 ## Extract Peptide and Coding Sequences ##
 There is an [AUGUSTUS-associated perl script](https://bioinf.uni-greifswald.de/augustus/binaries/scripts/) for the extraction of peptide and coding sequences called getAnnoFasta.pl. This script requires the genome sequence assembly file (FASTA) and the annotation file (GFF) as input.
