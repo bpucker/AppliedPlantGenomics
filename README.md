@@ -8,7 +8,7 @@ This script calculates several statistics of a given FASTQ file: number of reads
 python3 FASTQ_stats3.py
 --in <FASTQ_FILE>
 
-## De novo Genome Sequence Assembly ##
+## _De novo_ Genome Sequence Assembly ##
 [Canu]() is an established tool for the generation of long read plant genome sequence assemblies. Alternatives are miniasm, Flye, and shasta.
 
 Here is an explanation how to run Canu:
@@ -31,6 +31,35 @@ python3 contig_stats3.py
 --input <ASSEMBLY_FILE>
 --out <OUTPUT_FOLDER>
 --min_contig_len <MINIMAL_CONTIG_LENGTH>[500]
+
+
+## Run AUGUSTUS for Gene Prediction ###
+[AUGUSTUS]() is one of the standard tools for the generation of _ab initio_ gene predictions. 
+
+
+augustus \
+--gff3=on  \
+--UTR=on \
+--uniqueGeneId=true \
+--codingseq=on\
+--species=arabidopsis \
+ASSEMBLY \
+> annotation.gff
+
+## Extract Peptide and Coding Sequences ##
+There is an AUGUSTUS-associated perl script for the extraction of peptide and coding sequences called getAnnoFasta.pl. This script requires the genome sequence assembly file (FASTA) and the annotation file (GFF) as input.
+
+getAnnoFasta.pl \
+--seqfile=ASSEMBLY_FILE \
+ANNOTATION_GFF_FILE
+
+
+
+
+
+
+
+## References ##
 
 
 
