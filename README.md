@@ -57,7 +57,7 @@ augustus \
 --gff3=on  \
 --UTR=on \
 --uniqueGeneId=true \
---codingseq=on\
+--codingseq=on \
 --species=arabidopsis \
 ASSEMBLY \
 > annotation.gff
@@ -89,7 +89,7 @@ Mandatory:
 
 
 ## Long Read Mapping ##
-[minimap2]() can be used to align long reads to a genome sequence.
+[minimap2](https://github.com/lh3/minimap2) can be used to align long reads to a genome sequence.
 
 ```
 /vol/data/tools/minimap2-2.24_x64-linux/minimap2 \
