@@ -117,10 +117,11 @@ samtools index <BAM_FILE>
 
 
 ## References ##
+- Pucker B, Holtgräwe D, Rosleff Sörensen T, Stracke R, Viehöver P, Weisshaar B (2016) A De Novo Genome Sequence Assembly of the Arabidopsis thaliana Accession Niederzenz-1 Displays Presence/Absence Variation and Strong Synteny. PLoS ONE 11(10): e0164321. doi:[10.1371/journal.pone.0164321](https://doi.org/10.1371/journal.pone.0164321).
+- Pucker B, Holtgräwe D, Stadermann KB, Frey K, Huettel B, Reinhardt R, et al. (2019) A chromosome-level sequence assembly reveals the structure of the Arabidopsis thaliana Nd-1 genome and its gene set. PLoS ONE 14(5): e0216233. doi:[10.1371/journal.pone.0216233](https://doi.org/10.1371/journal.pone.0216233).
+- Pucker, B., Kleinbölting, N. & Weisshaar, B. Large scale genomic rearrangements in selected Arabidopsis thaliana T-DNA lines are caused by T-DNA insertion mutagenesis. BMC Genomics 22, 599 (2021). doi:[10.1186/s12864-021-07877-8](https://doi.org/10.1186/s12864-021-07877-8).
+- Pucker B, Irisarri I, de Vries J and Xu B (2022). Plant genome sequence assembly in the era of long reads: Progress, challenges and future directions. Quantitative Plant Biology, 3, E5. doi: [10.1017/qpb.2021.18](https://doi.org/10.1017/qpb.2021.18).
+- Pucker, B. (2024). Functional Annotation – How to Tackle the Bottleneck in Plant Genomics. Preprints. doi: [10.20944/preprints202402.0645.v1](https://www.preprints.org/manuscript/202402.0645/v1).
+- de Oliveira, J. A. V. S.; Choudhary, N.; Meckoni, S. N.; Nowak, M. S.; Hagedorn, M.; Pucker, B. (2025). Cookbook for Plant Genome Sequences. doi: [10.20944/preprints202508.1176.v2](https://www.preprints.org/manuscript/202508.1176/v2).
 
-Pucker B, Holtgräwe D, Rosleff Sörensen T, Stracke R, Viehöver P, Weisshaar B (2016) A De Novo Genome Sequence Assembly of the Arabidopsis thaliana Accession Niederzenz-1 Displays Presence/Absence Variation and Strong Synteny. PLoS ONE 11(10): e0164321. doi:[10.1371/journal.pone.0164321](https://doi.org/10.1371/journal.pone.0164321).
-
-Pucker B, Holtgräwe D, Stadermann KB, Frey K, Huettel B, Reinhardt R, et al. (2019) A chromosome-level sequence assembly reveals the structure of the Arabidopsis thaliana Nd-1 genome and its gene set. PLoS ONE 14(5): e0216233. doi:[10.1371/journal.pone.0216233](https://doi.org/10.1371/journal.pone.0216233).
-
-Pucker, B., Kleinbölting, N. & Weisshaar, B. Large scale genomic rearrangements in selected Arabidopsis thaliana T-DNA lines are caused by T-DNA insertion mutagenesis. BMC Genomics 22, 599 (2021). doi:[10.1186/s12864-021-07877-8](https://doi.org/10.1186/s12864-021-07877-8).
 
