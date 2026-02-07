@@ -1,5 +1,5 @@
 # Applied Plant Genomics (GE31/MM12)
-This repository contains materials and scripts used for Applied Plant Genomics.
+This repository contains materials and scripts used for Applied Plant Genomics. This is an old course with outdated content. Please see our latest [de.NBI course](https://github.com/bpucker/teaching/tree/master/deNBI2025) and [Long Read Genomics](https://github.com/bpucker/LRG) courses.
 
 ## Calculate Sequence Read Stats ##
 This script calculates several statistics of a given FASTQ file: number of reads, number of sequenced nucleotides, average read length (mean), GC content, and N50 length of the reads. The script can handle uncompressed and compressed FASTQ files.
